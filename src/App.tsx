@@ -180,7 +180,7 @@ export default function App() {
             >
               <div className="relative z-10 rounded-3xl overflow-hidden border border-zinc-800 aspect-[4/5] group">
                 <img 
-                  src="PeggieProfilePic.jpeg" 
+                  src="/peggie-portfolio/PeggieProfilePic.jpeg" 
                   alt="Peggie Mishra" 
                   className="w-full h-full object-cover rounded-2xl"
                 />
