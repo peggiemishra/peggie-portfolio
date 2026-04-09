@@ -442,7 +442,7 @@ export default function App() {
                   Published <span className="text-white font-bold">100+ articles</span> on data, AI, and product thinking, reaching <span className="text-white font-bold">100K+ global readers</span>.
                 </p>
               </div>
-              <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="mt-8 flex items-center gap-2 text-emerald-400 font-bold group-hover:gap-4 transition-all">
+              <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="relative z-10 mt-8 flex items-center gap-2 text-emerald-400 font-bold group-hover:gap-4 transition-all">
                 Read on Medium <ChevronRight className="w-5 h-5" />
               </a>
             </motion.div>
@@ -451,11 +451,11 @@ export default function App() {
               whileHover={{ scale: 1.02 }}
               className="relative group overflow-hidden rounded-3xl aspect-video md:aspect-auto bg-zinc-900 p-8 flex flex-col justify-between border border-zinc-800"
             >
-              <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity">
+              <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity pointer-events-none">
                 <img 
                   src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?auto=format&fit=crop&q=80&w=1000" 
                   alt="Photography" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover pointer-events-none"
                   referrerPolicy="no-referrer"
                 />
               </div>
@@ -463,7 +463,7 @@ export default function App() {
                 <Camera className="w-10 h-10 text-cyan-400 mb-6" />
                 <h3 className="text-3xl font-bold text-white mb-4">Photography</h3>
                 <p className="text-zinc-300 leading-relaxed">
-                  Portfolio on Unsplash with <span className="text-white font-bold">2M+ views</span> and <span className="text-white font-bold">15K+ downloads</span>. Featured in Hindustan Times & India Today.
+                  Portfolio on Unsplash with <span className="text-white font-bold">2M+ views</span> and <span className="text-white font-bold">15K+ downloads</span>. Featured in Hindustan Times, India Today, IISD etc.
                 </p>
               </div>
               <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="relative z-10 mt-8 flex items-center gap-2 text-cyan-400 font-bold group-hover:gap-4 transition-all">
